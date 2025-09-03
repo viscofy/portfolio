@@ -228,7 +228,12 @@ span {
   background: var(--sbg);
 }
 
-.projects h2 {
+.projects .heading {
+  margin-bottom: -0.5rem;
+}
+
+#moreworksoon {
+  font-size: 25pt;
   margin-bottom: 4rem;
 }
 
