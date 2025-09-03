@@ -314,6 +314,10 @@ span {
   margin-bottom: 3rem;
 }
 
+#contact h3 {
+  font-size: 26pt;
+}
+
 .contact form {
   max-width: 70rem;
   margin: 1rem auto;
@@ -507,3 +511,4 @@ span {
     font-size: 1.3rem;
   }
 }
+
