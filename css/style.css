@@ -26,6 +26,9 @@ html {
 body {
   background: var(--bg);
   color: var(--textc);
+  overflow-x: hidden;
+
+
 }
 
 section {
@@ -315,8 +318,9 @@ span {
 }
 
 #contact h3 {
-  font-size: 26pt;
+  font-size: 4rem;
 }
+
 
 .contact form {
   max-width: 70rem;
@@ -481,16 +485,44 @@ span {
   .portfolio-container {
     grid-template-columns: repeat(1, 1fr);
   }
+    
+
 }
 
 @media (max-width: 450px) {
+
+  
+
   html {
     font-size: 50%;
+  }
+
+ .home-content {
+    margin-top: -15rem;
+  }
+
+  .btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+  .home-content .social{
+    text-align: center;
+  }
+
+  .about-content {
+    max-width: 90%;
   }
 
   .contact form .input-box {
     width: 100%;
   }
+
+#contact h3 {
+  font-size: 2rem;
+}
+
 }
 
 @media (max-width: 365px) {
@@ -511,4 +543,3 @@ span {
     font-size: 1.3rem;
   }
 }
-
